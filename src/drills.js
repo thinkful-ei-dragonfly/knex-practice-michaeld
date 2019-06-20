@@ -39,7 +39,6 @@ function getAllItemsPaginated(pageNumber){
 }
 getAllItemsPaginated(2);
 
-
 //Drill 3
 function getAllItemsAddedAfterDate(daysAgo){
   knexInstance 
@@ -52,7 +51,6 @@ function getAllItemsAddedAfterDate(daysAgo){
     }); 
 }
 getAllItemsAddedAfterDate(10);
-
 
 //Drill 4
 function getTotalCostEachCategory(){
